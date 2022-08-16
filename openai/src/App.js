@@ -5,6 +5,7 @@ import Navbar from './Components/navbar/Navbar';
 import Brand from './Components/brand/Brand';
 import Header from './Containers/header/Header';
 import WhatGPT3 from './Containers/whatGPT3/WhatGPT3';
+import Features from './Containers/features/Features';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       </div>
       <Brand/>
       <WhatGPT3/>
+      <Features/>
     </div>
   );
 }
